@@ -405,7 +405,7 @@ client.on('guildCreate', guild => {
    
   client.channels.get("518350655056904202")
 const embed = new Discord.RichEmbed()
-   .setAuthor(`Zactor Bot Joined a Server ✅`)
+   .setAuthor(`Bright Bot Joined a Server ✅`)
    .setDescription(`**
 Server name: __${guild.name}__
 Server id: __${guild.id}__
@@ -414,7 +414,7 @@ Member Count: __${guild.memberCount}__
 Servers Counter : __${client.guilds.size}__**`)
          .setColor("#f3ae10")
          .addField("New Server!")
-         .setFooter('Zactor BOT' , client.user.avatarURL)
+         .setFooter('Bright BOT' , client.user.avatarURL)
            client.channels.get("518350655056904202").send({embed}); //Sup
 }
  
@@ -423,7 +423,7 @@ Servers Counter : __${client.guilds.size}__**`)
 client.on('guildDelete', guild => {
   client.channels.get("518350655056904202")
 const embed = new Discord.RichEmbed()
-   .setAuthor(`Zactor Bot left a server ❎`)
+   .setAuthor(`Bright Bot left a server ❎`)
    .setDescription(`**
 Server name: __${guild.name}__
 Server id: __${guild.id}__
@@ -431,7 +431,7 @@ Server owner: __${guild.owner}__
 Members Count: __${guild.memberCount}__
 Servers Counter : __${client.guilds.size}__**`)
          .setColor("#f3ae10")
-         .setFooter('Zactor BOT' , client.user.avatarURL)
+         .setFooter('Bright BOT' , client.user.avatarURL)
            client.channels.get("518350655056904202").send({embed});
 }
  
@@ -781,7 +781,7 @@ client.on('message' , message => {//mrx
  .setThumbnail(client.user.avatarURL)
  .setAuthor(message.author.username, message.author.avatarURL)
  .setTitle(`Support Server`)
- .setURL('https://discord.gg/S72bm3W')
+ .setURL('https://discord.gg/danxbB')
   message.author.sendEmbed(mrxsupport).then(c => {
     c.react('🔼')
   })
@@ -1039,7 +1039,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('Zactor BOT.' ,
+.addField('Bright BOT.' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)
